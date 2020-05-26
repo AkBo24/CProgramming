@@ -14,13 +14,19 @@
 int main(void) {
 	puts("Hello World!\n"); /* prints !!!Hello World!!! */
 
+	/* Basic Stuff */
+
 //	puts("Variables");
 //	varMain();
 //	mathFunc();
 //	inOut();
 //	arrays();
+//	funcMain();
 
-	funcMain();
+
+	/* Advanced Stuff */
+
+	Structs();
 
 	return EXIT_SUCCESS;
 }

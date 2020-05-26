@@ -25,7 +25,7 @@ void varMain() {
 	double location = 40.6;
 
 	//Final Variables: add const modifier in front
-	const pi = 3.1415;
+	const int pi = 3.1415;
 
 	printf("Strings have to be an array of characters: %s\nInteger Variable: %d\n",name,number);
 
