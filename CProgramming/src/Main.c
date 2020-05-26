@@ -14,10 +14,12 @@
 int main(void) {
 	puts("Hello World!\n"); /* prints !!!Hello World!!! */
 
-	puts("Variables");
-	varMain();
-	mathFunc();
+//	puts("Variables");
+//	varMain();
+//	mathFunc();
 
+
+	inOut();
 
 	return EXIT_SUCCESS;
 }
