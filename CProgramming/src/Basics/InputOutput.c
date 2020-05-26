@@ -17,17 +17,17 @@ void inOut() {
 	char name[250];
 
 
-	/* To get an input from user use scanf method */
-//
-//	printf("Enter a char:");
-//	scanf("%c", &letter);
-//	printf("Your Letter: %c\n\n", letter);
-
 	//Use fgets to get a string
 	printf("Enter a String: ");
 	//string var name, length of expected input, file to get from
 	fgets(name, 250, stdin);
 	printf("Your String: %s\n\n", name);
+
+	/* To get an input from user use scanf method */
+
+	printf("Enter a char:");
+	scanf(" %c", &letter);
+	printf("Your Letter: %c\n\n", letter);
 
 	printf("Enter an int: ");
 	scanf("%d", &num1);
