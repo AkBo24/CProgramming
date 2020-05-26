@@ -17,9 +17,10 @@ int main(void) {
 //	puts("Variables");
 //	varMain();
 //	mathFunc();
+//	inOut();
+//	arrays();
 
-
-	inOut();
+	funcMain();
 
 	return EXIT_SUCCESS;
 }
