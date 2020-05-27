@@ -26,7 +26,9 @@ int main(void) {
 
 	/* Advanced Stuff */
 
-	Structs();
+//	Structs();
+//	memMain();
+
 
 	return EXIT_SUCCESS;
 }
