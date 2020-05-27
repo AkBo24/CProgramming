@@ -28,6 +28,7 @@ int main(void) {
 
 //	Structs();
 //	memMain();
+	point();
 
 
 	return EXIT_SUCCESS;
