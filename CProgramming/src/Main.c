@@ -32,7 +32,9 @@ int main(void) {
 
 	/* Pointers in Depth */
 //	pointersConst();
-	voidPointers();
+//	voidPointers();
+//	arrayPointers();
+	arithmeticPointers();
 
 	return EXIT_SUCCESS;
 }
