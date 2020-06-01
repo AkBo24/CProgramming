@@ -28,8 +28,10 @@ int main(void) {
 
 //	Structs();
 //	memMain();
-	point();
+//	point();
 
+	/*Pointers in Depth*/
+	pointersConst();
 
 	return EXIT_SUCCESS;
 }

@@ -31,5 +31,4 @@ void point2() {
 	puts("To dereference put a '*' in-front of the pointer variable ");
 	printf("The memory address's value above is: %d ", *pLen);
 
-
 }
