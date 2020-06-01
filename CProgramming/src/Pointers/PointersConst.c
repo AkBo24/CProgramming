@@ -16,10 +16,21 @@ void pointersConst() {
 	puts("\nType 1: Declare const modifier @ the beginning of the pointer");
 	puts("Syntax: const datatype * pName = &varName");
 
-
 	double ex1 = 3.14;
 	printf("Ex: const *double pPi = &pi\n");
-	const double * pEx1 = &ex1;
+	const double * pEx1 = &ex1; //Ensures the value of the pointer is constant
 //	printf("%p\n", pEx1);
 	puts("Meaning: The value of pEx1 (*pEx1) can not be changed");
+
+
+	puts("\nType 2: Declare the const modifier between the datatype and \npointer");
+	puts("Syntax: datatype * const pName = &varName");
+	printf("Ex: double * const pEx2 = &ex2\n");
+	double ex2 = 2.718;
+	double * const pEx2 = &ex2; //Pointer always points to the same memory address
+	puts("Meaning: the address of pEx2 will not change");
+
+
+
+
 }
