@@ -31,6 +31,9 @@ void pointersConst() {
 	puts("Meaning: the address of pEx2 will not change");
 
 
-
+	puts("\n\nCombining Type 1 & Type 2");
+	puts("Syntax: const datatype *const pName = &varName");
+	puts("Meaning: the variable and address can not be changed through \nthe pointer");
+	puts("However varName can be changed directly");
 
 }
