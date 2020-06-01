@@ -30,8 +30,9 @@ int main(void) {
 //	memMain();
 //	point();
 
-	/*Pointers in Depth*/
-	pointersConst();
+	/* Pointers in Depth */
+//	pointersConst();
+	voidPointers();
 
 	return EXIT_SUCCESS;
 }
