@@ -41,15 +41,18 @@ int main(void) {
 //	arrayPointers();
 //	arithmeticPointers();
 
-	/* Dynamic Memory Allocation */
 //	memoryAlloc();
+
+	/* Structs In Depth */
+	//StructArrays
+	//StructsBasics
+	StructsPointer();
 
 	/* Testing Challenge Methods */
 //	double num = 3;
 //	power(&num);
 //	printf("%lf", num);
-
-	prints();
+//	prints();
 
 	return EXIT_SUCCESS;
 }
