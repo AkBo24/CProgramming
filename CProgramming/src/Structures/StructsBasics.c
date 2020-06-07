@@ -34,14 +34,14 @@ void StructsBasics() {
      puts("Simply opt out the structure name: struct {//vars} structName;");
 
      struct book {
-    	 char author[];
-    	 char title[];
+    	 char author[250];
+    	 char title[250];
     	 int  pages;
      }b1 = {.title = "Catcher in the Rye", .author = "J.D Salinger", .pages = 84};
 
      struct {
-    	 char title[];
-		 char genre[];
-		 char company[];
+    	 char title[250];
+		 char genre[250];
+		 char company[250];
      }game1;
 }
