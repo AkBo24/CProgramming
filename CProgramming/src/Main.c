@@ -46,13 +46,14 @@ int main(void) {
 	/* Structs In Depth */
 	//StructArrays
 	//StructsBasics
-	StructsPointer();
+//	StructsPointer();
 
 	/* Testing Challenge Methods */
 //	double num = 3;
 //	power(&num);
 //	printf("%lf", num);
 //	prints();
+	strucChal1();
 
 	return EXIT_SUCCESS;
 }
